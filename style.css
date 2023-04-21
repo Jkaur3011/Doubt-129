@@ -1,0 +1,49 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    font-size: 28px;
+    margin-top: 0px;
+    width: 100%;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgb(1, 68, 175);
+    font-weight: bold;
+    box-shadow: 30px 30px 30px rgb(120, 151, 251);
+}
+
+.heading:hover {
+    background-color: rgb(0, 42, 109);
+}
+
+.note {
+    font-size: 17px;
+    color: white;
+    font-weight: lighter;
+    font-weight: bold;
+}
+
+#song_name {
+    background-color: rgb(116, 1, 63);
+    border-color: rgb(231, 178, 249);
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(226, 144, 254);
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    box-shadow: 10px 10px 20px rgb(231, 178, 249);
+    width: 120px;
+}
+
+#song_name:hover {
+    background-color: rgb(72, 2, 40);
+}
+
+canvas {
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    border-style: ridge;
+    box-shadow: 20px 20px 30px white;
+}
